@@ -5,7 +5,9 @@ story_id_proc = Proc.new do |buffer|
     if branch
       story_id = branch[ /^(\d{6,})-/, 1 ]
       if story_id
-        buffer.paste "[##{story_id}] "
+        if buffer.current_line !~ /\[##{story_id}\]/
+          buffer.paste "[##{story_id}] "
+        end
       end
     end
   end

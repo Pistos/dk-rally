@@ -3,7 +3,7 @@ description: A Pivotal Tracker extension for Diakonos
 author:
     name: Pistos
     uri: http://github.com/Pistos
-version: 1.0.0
+version: 1.0.1
 uris:
     homepage: http://github.com/Pistos/dk-pivotal-tracker
     repository: git://github.com/Pistos/dk-pivotal-tracker.git
