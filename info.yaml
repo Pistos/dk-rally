@@ -1,12 +1,12 @@
-name: pivotal-tracker
-description: A Pivotal Tracker extension for Diakonos
+name: rally
+description: A Rally extension for Diakonos
 author:
     name: Pistos
     uri: http://github.com/Pistos
-version: 1.0.1
+version: 1.0.0
 uris:
-    homepage: http://github.com/Pistos/dk-pivotal-tracker
-    repository: git://github.com/Pistos/dk-pivotal-tracker.git
+    homepage: http://github.com/Pistos/dk-rally
+    repository: git://github.com/Pistos/dk-rally.git
 licence: MIT
 requirements:
     diakonos:
@@ -14,7 +14,7 @@ requirements:
         tested:
             - 0.8.14
 notes: >
-    This extension makes Diakonos automatically place the Pivotal Tracker
+    This extension makes Diakonos automatically place the Rally user
     story id in a commit message if the current git branch name conforms to the
-    format 0000000-some-branch-name where 0000000 is a Pivotal Tracker story
+    format US0000-some-branch-name where US0000 is a Rally user story
     id.
