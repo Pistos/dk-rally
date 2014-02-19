@@ -1,19 +1,20 @@
-name: trello
-description: A Trello extension for Diakonos
+name: rally
+description: A Rally extension for Diakonos
 author:
     name: Pistos
     uri: http://github.com/Pistos
 version: 1.0.0
 uris:
-    homepage: http://github.com/Pistos/dk-trello
-    repository: git://github.com/Pistos/dk-trello.git
+    homepage: http://github.com/Pistos/dk-rally
+    repository: git://github.com/Pistos/dk-rally.git
 licence: MIT
 requirements:
     diakonos:
-        minimum: 0.9.2
+        minimum: 0.8.11
         tested:
-            - 0.9.2
+            - 0.8.14
 notes: >
-    This extension makes Diakonos automatically place the Trello card id
-    in a commit message if the current git branch name conforms to the
-    format TR-X0X0X0-some-branch-name where X0X0X0 is a Trello card id
+    This extension makes Diakonos automatically place the Rally user
+    story id in a commit message if the current git branch name conforms to the
+    format US0000-some-branch-name where US0000 is a Rally user story
+    id.
